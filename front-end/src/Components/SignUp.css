@@ -1,0 +1,61 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.input-box {
+  height: 30px;
+  width: 300px;
+}
+
+.signupbtn {
+  background-color: aqua;
+  height: 40px;
+  width: 140px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.add-button {
+  background-color: aqua;
+  height: 40px;
+  width: 140px;
+}
+
+span {
+  color: red;
+  margin-right: 20px;
+  justify-self: left;
+  margin-left: 0;
+}
+
+.product-list {
+  text-align: center;
+}
+
+.product-list ul li {
+  list-style: none;
+  display: inline-block;
+  border: 1px solid aqua;
+  padding: 5px;
+  width: 150px;
+}
+
+.input-search {
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  border: 1px solid skyblue;
+  padding-left: 20px;
+}
